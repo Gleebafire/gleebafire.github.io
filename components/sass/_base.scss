@@ -1,0 +1,178 @@
+*{
+ margin:0;
+ padding:0;
+ }
+
+
+ *:focus {
+    outline: 0;
+}
+
+html { height:100%; }
+
+body{
+	background-color: $browserBg;
+	height:100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block;}
+
+.row{
+	margin:0;
+	padding:0;
+}
+
+a{
+	color: $white;
+	text-decoration: none;
+
+}
+
+a:hover{
+	cursor: pointer;
+	
+}
+
+@keyframes blink {
+    0%   {
+    	background-color: #044353;
+    	opacity: 1;			
+    }
+
+    25%  {
+    	background-color: #044353;
+		opacity: .75;	
+    }
+
+
+    50%  {
+    	background-color: #044353;
+		opacity: .50;	
+    }
+
+    75%  {
+    	background-color: #044353;
+		opacity: .25;	
+    }
+
+    100%  {
+    	background-color: #044353;
+		opacity: 0;	
+    }
+}	
+
+
+.animation{
+	width:100%;
+	height:100%;
+	background-color:transparent;
+	animation-name:blink;
+	animation-duration:4s;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	animation-iteration-count: 1;
+	z-index:10;
+}
+	
+.animation img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15%;
+
+    @media #{$mobileXtraSmall} {
+    	margin-top: 17%;
+    	width:70%;
+	 } //@mediamobileXtraSmall
+
+	@media #{$mobileSmall} {
+	    margin-top: 17%;
+    	width:70%;
+	  } //@mediamobileSmall
+
+	 @media #{$mobileLarge} {
+	    margin-top: 17%;
+    	width:50%;
+	  } //@mediamobileLarge
+
+}
+
+.wrapper{
+	width:100%;
+	margin: 0 auto;
+
+	@media #{$mobileXtraSmall} {
+	 } //@mediamobileXtraSmall
+
+ 	 @media #{$mobileSmall} {
+	    width: 100%;
+	  } //@mediamobileSmall
+
+	  @media #{$mobileLarge} {
+	    width: 100%;
+	  } //@mediamobileLarge
+
+	  @media #{$tabletSmall} {
+	    width: 100%;
+	  } //@mediamobileLarge
+
+	  @media #{$tabletLarge} {
+	    width: 85%;
+	  } //@mediamobileLarge
+
+	  @media #{$laptop} {
+	    width: 77%;
+	  } //@mediamobileLarge
+}
+
+h1{
+	font-size:2em;
+	font-weight:$bold;
+	padding:15px 0;
+
+	@media #{$mobileSmall} {
+		font-size:2em;
+	} //@mediamobileSmall
+
+	@media #{$mobileLarge} {
+		font-size:2em;
+	} //@mediamobileLarge
+	 
+	@media #{$tabletSmall} {
+		font-size:2.5em;
+	} //@mediatabletSmall
+
+	@media #{$tabletLarge} {
+		font-size:2.5em;
+
+	} //@mediatabletLarge	
+
+	@media #{$laptop} {
+		font-size:3em;  
+	} //@medialaptop
+}
+
+h2{
+	font-size: 1.250em;
+	font-weight:$bold;
+}
+
+
+p{
+	font-size: 1em;
+	line-height:1.2em;
+}
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
