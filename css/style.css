@@ -1783,7 +1783,7 @@ aside {
   display: block;
   width: 70%;
   padding: 25px 0;
-  margin-left: 32%;
+  margin-left: 30%;
 }
 @media (min-width: 220px) and (max-width: 319px) {
   /* line 40, ../../../components/sass/modules/aside.scss */
@@ -1795,7 +1795,7 @@ aside {
 @media (min-width: 320px) and (max-width: 479px) {
   /* line 40, ../../../components/sass/modules/aside.scss */
   .container-fluid .row header img {
-    width: 52%;
+    width: 50%;
     margin: 0 auto;
   }
 }
@@ -1809,7 +1809,7 @@ aside {
 @media (min-width: 600px) and (max-width: 839px) {
   /* line 40, ../../../components/sass/modules/aside.scss */
   .container-fluid .row header img {
-    width: 24%;
+    width: 22%;
     margin: 0 auto;
   }
 }
@@ -1817,7 +1817,7 @@ aside {
   /* line 40, ../../../components/sass/modules/aside.scss */
   .container-fluid .row header img {
     width: 75%;
-    margin-left: 28%;
+    margin-left: 26%;
   }
 }
 @media (min-width: 960px) and (max-width: 1023px) {
@@ -1942,7 +1942,7 @@ aside {
 /* line 186, ../../../components/sass/modules/aside.scss */
 .myDetailsVertical {
   display: block;
-  width: 94%;
+  width: 90%;
   margin: 0 auto;
 }
 @media (min-width: 220px) and (max-width: 319px) {
@@ -2012,107 +2012,116 @@ aside {
 }
 /* line 238, ../../../components/sass/modules/aside.scss */
 .myDetailsVertical ul .pc-skills-vertical h2 {
-  margin: 10px 0;
+  margin: 10px 0 10px 0;
   color: #fdc20e;
 }
-/* line 243, ../../../components/sass/modules/aside.scss */
+/* line 242, ../../../components/sass/modules/aside.scss */
+.myDetailsVertical ul .pc-skills-vertical ul {
+  margin: 0;
+}
+/* line 244, ../../../components/sass/modules/aside.scss */
 .myDetailsVertical ul .pc-skills-vertical ul li {
   display: inline-block;
   width: 45px;
   height: 45px;
   margin: 5px;
 }
-/* line 250, ../../../components/sass/modules/aside.scss */
+/* line 251, ../../../components/sass/modules/aside.scss */
 .myDetailsVertical ul .pc-skills-vertical ul .no-margin {
   margin-right: 0;
 }
 
-/* line 260, ../../../components/sass/modules/aside.scss */
+/* line 261, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz {
   width: 90%;
   margin: 0 auto;
 }
 @media (min-width: 220px) and (max-width: 319px) {
-  /* line 260, ../../../components/sass/modules/aside.scss */
+  /* line 261, ../../../components/sass/modules/aside.scss */
   .myDetailsHoriz {
     display: none;
   }
 }
 @media (min-width: 320px) and (max-width: 479px) {
-  /* line 260, ../../../components/sass/modules/aside.scss */
+  /* line 261, ../../../components/sass/modules/aside.scss */
   .myDetailsHoriz {
     display: none;
   }
 }
 @media (min-width: 480px) and (max-width: 599px) {
-  /* line 260, ../../../components/sass/modules/aside.scss */
+  /* line 261, ../../../components/sass/modules/aside.scss */
   .myDetailsHoriz {
     display: none;
   }
 }
 @media (min-width: 840px) and (max-width: 959px) {
-  /* line 260, ../../../components/sass/modules/aside.scss */
+  /* line 261, ../../../components/sass/modules/aside.scss */
   .myDetailsHoriz {
     display: none;
   }
 }
 @media (min-width: 960px) and (max-width: 1023px) {
-  /* line 260, ../../../components/sass/modules/aside.scss */
+  /* line 261, ../../../components/sass/modules/aside.scss */
   .myDetailsHoriz {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  /* line 260, ../../../components/sass/modules/aside.scss */
+  /* line 261, ../../../components/sass/modules/aside.scss */
   .myDetailsHoriz {
     display: none;
   }
 }
-/* line 288, ../../../components/sass/modules/aside.scss */
+/* line 289, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz ul {
   margin: 25px auto;
   width: 90%;
 }
-/* line 292, ../../../components/sass/modules/aside.scss */
+/* line 293, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz ul li {
   display: inline-block;
   width: 240px;
   height: auto;
   margin: 5px;
 }
-/* line 297, ../../../components/sass/modules/aside.scss */
+/* line 298, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz ul li h2 {
   margin: 10px 0;
   color: #fdc20e;
 }
-/* line 301, ../../../components/sass/modules/aside.scss */
+/* line 302, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz ul li p {
   font-family: "Raleway", "arial", "san-serif";
 }
-/* line 303, ../../../components/sass/modules/aside.scss */
+/* line 304, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz ul li p i {
   font-weight: 900;
 }
-/* line 311, ../../../components/sass/modules/aside.scss */
+/* line 312, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz .pc-skills-horizontal h2 {
   margin: 10px 0;
   color: #fdc20e;
 }
-/* line 315, ../../../components/sass/modules/aside.scss */
+/* line 316, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz .pc-skills-horizontal ul {
   width: 90%;
 }
-/* line 317, ../../../components/sass/modules/aside.scss */
+/* line 318, ../../../components/sass/modules/aside.scss */
 .myDetailsHoriz .pc-skills-horizontal ul li {
   width: 50px;
 }
 
-/* line 324, ../../../components/sass/modules/aside.scss */
+/* line 325, ../../../components/sass/modules/aside.scss */
 .remove {
   margin: 0 0 0 -2000px;
 }
 
 /* line 329, ../../../components/sass/modules/aside.scss */
+.link-hover:hover {
+  color: pink;
+}
+
+/* line 334, ../../../components/sass/modules/aside.scss */
 .phoneIco,
 .emailIco,
 .addressIco,
@@ -2124,67 +2133,67 @@ aside {
   position: relative;
 }
 
-/* line 342, ../../../components/sass/modules/aside.scss */
+/* line 347, ../../../components/sass/modules/aside.scss */
 .emailIco {
   top: 2px;
   -webkit-transition: all .5s ease;
 }
 
-/* line 347, ../../../components/sass/modules/aside.scss */
+/* line 352, ../../../components/sass/modules/aside.scss */
 .emailIco:hover {
   -webkit-transform: translateX(10px);
   cursor: pointer;
 }
 
-/* line 353, ../../../components/sass/modules/aside.scss */
+/* line 358, ../../../components/sass/modules/aside.scss */
 .addressIco {
   left: 18px;
   top: 1px;
 }
 
-/* line 358, ../../../components/sass/modules/aside.scss */
+/* line 363, ../../../components/sass/modules/aside.scss */
 .portfolioIco {
   top: 3px;
   left: 23px;
 }
 
-/* line 363, ../../../components/sass/modules/aside.scss */
+/* line 368, ../../../components/sass/modules/aside.scss */
 .linkdenIco {
   left: 22px;
   top: 2px;
   -webkit-transition: all .5s ease;
 }
 
-/* line 369, ../../../components/sass/modules/aside.scss */
+/* line 374, ../../../components/sass/modules/aside.scss */
 .linkdenIco:hover {
   -webkit-transform: translateX(10px);
   cursor: pointer;
 }
 
-/* line 374, ../../../components/sass/modules/aside.scss */
+/* line 379, ../../../components/sass/modules/aside.scss */
 .languageIco {
   left: 28px;
   top: 3px;
 }
 
-/* line 379, ../../../components/sass/modules/aside.scss */
+/* line 384, ../../../components/sass/modules/aside.scss */
 .interestsIco {
   left: 10px;
   top: 3px;
 }
 
-/* line 384, ../../../components/sass/modules/aside.scss */
+/* line 389, ../../../components/sass/modules/aside.scss */
 .pcskillsIco {
   left: 18px;
   top: 3px;
 }
 
-/* line 391, ../../../components/sass/modules/aside.scss */
+/* line 396, ../../../components/sass/modules/aside.scss */
 .interest-bold {
   font-weight: 900;
 }
 
-/* line 395, ../../../components/sass/modules/aside.scss */
+/* line 400, ../../../components/sass/modules/aside.scss */
 .interest-thin {
   font-weight: 200;
 }
