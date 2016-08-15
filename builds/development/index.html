@@ -22,6 +22,11 @@
     }, 3000);
     });
 
+  function resizeleftcolumn(){
+    var h = $(".artcicle").height();
+    $(".aside").css("min-height",h+"100%");
+  }
+
 
   </script>
 
@@ -61,19 +66,19 @@
             </li>
         		<li>
               <a href="mailto:shaun.dewar@gmail.com"><h2><img class="emailIco" src="images/email.svg" width="20px" height="20px">Email</h2>
-              <p>shaun.dewar@gmail.com</p></a>
+              <p class="link-hover">shaun.dewar@gmail.com</p></a>
             </li>
         		<li>
                <h2><img class="addressIco" src="images/address.svg" width="20px" height="20px">Address</h2>
                <p>311 Pike Street<br>Durham NC, 27707, USA</p>
             </li>
         		<li>
-              <h2><img class="portfolioIco" src="images/behance.svg" width="20px" height="20px">Portfolio</h2>
-              <p><a href="www.behance.net/Gleebafire">www.behance.net/Gleebafire</a></p>
+              <a href="https://www.behance.net/Gleebafire"><h2><img class="portfolioIco" src="images/behance.svg" width="20px" height="20px">Portfolio</h2>
+              <p class="link-hover">www.behance.net/Gleebafire</p></a>
             </li>
         		<li>              
               <a href="https://www.linkedin.com/in/shaundewar82"><h2><img class="linkdenIco" src="images/linkden.svg" width="20px" height="20px">Linkedin</h2>
-              <p>www.linkedin.com/in/<br>shaundewar82</p></a>
+              <p class="link-hover">www.linkedin.com/in/<br>shaundewar82</p></a>
             </li>
         		<li>
               <h2><img class="languageIco" src="images/language.svg" width="20px" height="20px">Language</h2>
